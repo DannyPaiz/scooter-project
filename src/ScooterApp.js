@@ -2,6 +2,7 @@
 
 class ScooterApp {
   // ScooterApp code here
+  
 }
 
 module.exports = ScooterApp
