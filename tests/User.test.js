@@ -2,7 +2,16 @@ const User = require('../src/User')
 
 // User tests here
 describe('User property tests', () => {
-  
+
+  /** code a lil, test a lil
+   * create class, test instantiation vals
+   * create methods, test them
+   * reusability is key
+   * instead of directly accessing params
+   * make a getter and setter function
+   * minimize xss
+   */
+
   const user = new User('Joe Bloggs', 'test123', 21)
   // test username || GETTERS
   test('test private param Getters - getUsername()', () => {
@@ -60,5 +69,6 @@ describe('User property tests', () => {
     let result = user.loggedIn
     expect(result).toBe(false)
   })
+
 
 })
